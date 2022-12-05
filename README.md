@@ -46,58 +46,31 @@ Mina’s zero-knowledge smart contracts are referred to as “zkApps”. zkApps 
 
 ## Dependencies
 
-1 . [Install Wallet](https://www.aurowallet.com/) Create Account and change to Berkeley Network
+- [Install Wallet](https://www.aurowallet.com/) Create Account and change to Berkeley Network
 
-2 . [Mina Faucet](https://faucet.minaprotocol.com/) Claim faucet
+- [Mina Faucet](https://faucet.minaprotocol.com/) Claim faucet
 
-3 . [Visual Studio Code](https://code.visualstudio.com/Download)
+- [Visual Studio Code](https://code.visualstudio.com/Download)
 
-4 . [NodeJs](https://nodejs.org/en/download/)
+- [NodeJs](https://nodejs.org/en/download/)
 
-5 . [Git Bash](https://git-scm.com/downloads)
+- [Git Bash](https://git-scm.com/downloads)
 
-6 . [Auro Wallet](https://www.aurowallet.com/)
+- [Auro Wallet](https://www.aurowallet.com/)
 
+## Instalation
 
-# 1. Installation
+Install the [tools](https://github.com/DiscoverMyself/Mina-zkapp-Developers/blob/main/instalation.md) before you start the work
 
-## 1. Open Port
-```
-ufw allow 22 && ufw allow 3000
-ufw enable
-```
+## Task
 
-## 2. Install Screen
-
-```
-sudo apt install screen
-```
-
-## 3. Instal Node.Js 16, NPM & Git
-
-```
-sudo apt update
-sudo apt upgrade
-sudo apt install git
-sudo apt install -y curl
-```
-```
-curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
-```
-```
-sudo apt install -y nodejs
-```
-
-**Check Node Js version**
-```
-node -v
-```
-**Check NPM version**
-```
-npm -v
-```
-**Check Git version**
-```
-git --version
-```
-
+### Tutorial 1: Hello World
+### Tutorial 2 Private Inputs and Hash Functions
+### Tutorial 3: Deploying to a Live Network
+### Tutorial 4: Building a zkApp UI in the Browser with React
+### Tutorial 5: Common Types and Functions
+### Tutorial 6: Off-Chain Storage
+### Tutorial 7: Oracles
+### Tutorial 8: Custom Tokens
+### Anonymous Message Board Tutorial
+### Interacting with zkApps Server-Side
