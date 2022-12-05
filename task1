@@ -1,0 +1,85 @@
+# INSTALLATION
+```
+npm install -g zkapp-cli
+```
+
+To confirm it is installed, run:
+
+```
+zk --version
+```
+
+This tutorial has been tested as of Mina zkApp CLI version 0.4.17 and SnarkyJS 0.6.0.
+
+Create a new project
+Now that you have the tooling installed, we can start building our application.
+
+First, create a new project using:
+
+```
+zk project 01-hello-world
+```
+
+# Preparing the project
+
+We will start by creating files for our project and deleting the default files that come with the new project.
+
+First, delete the old files. Run:
+
+```
+rm src/Add.ts
+rm src/Add.test.ts
+rm src/interact.ts
+```
+
+And generate the new files for our project. Enter:
+
+```
+zk file src/Square
+touch src/main.ts
+```
+
+Now, let's open `src/index.ts` in a text editor and change it to look like below. This file contains all exports we want to make available for consumption from outside our smart contract project, such as from a UI.
+
+```
+import { Square } from './Square.js';
+
+export { Square };
+```
+
+# Building and Running
+
+```
+npm run build && node build/src/main.js
+```
+
+# Imports
+
+First, open src/Square.ts in your editor, then add the following at the top of the file:
+
+```
+  1 import {
+  2   Field,
+  3   SmartContract,
+  4   state,
+  5   State,
+  6   method,
+  7   DeployArgs,
+  8   Permissions,
+  9 } from 'snarkyjs';
+```
+
+#Smart contract class
+
+Now, we will write the smart contract. Write the following in your file:
+
+ 10```
+ 11 export class Square extends SmartContract {
+ 12   @state(Field) num = State<Field>();
+ 13```
+ 
+ 
+ This creates a new smart contract called Square with one element of on-chain state named num of type Field. zkApps can have up to 8 fields worth of on-chain state, each storing up to 32 bytes of arbitrary data. A later tutorial will discuss options for off-chain state.
+ 
+ 
+ 14 }
