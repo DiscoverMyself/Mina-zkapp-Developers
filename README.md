@@ -12,16 +12,22 @@
 
 # MINA ZKAPP DEVELOPERS
 
+<p>
 ***What is Mina?***
 
 Mina is a L1 blockchain based on zero-knowledge proofs (“ZKP”) with smart contracts written in TypeScript. It is the first cryptocurrency protocol with a succinct blockchain
 
+</p>
 
 
+<p>
 ***What are zkapps?***
   
 Mina’s zero-knowledge smart contracts are referred to as “zkApps”. zkApps provide powerful and unique characteristics such as unlimited off-chain execution, privacy for private data inputs that are never seen by the blockchain, the ability to write smart contracts in TypeScript, & more
 
+</p>  
+  
+  
 ## Prerequisites
 
 - [Website](https://minaprotocol.com/)
