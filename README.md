@@ -64,13 +64,13 @@ Install the [tools](https://github.com/DiscoverMyself/Mina-zkapp-Developers/blob
 
 ## Task
 
-### Tutorial 1: Hello World
-### Tutorial 2 Private Inputs and Hash Functions
-### Tutorial 3: Deploying to a Live Network
-### Tutorial 4: Building a zkApp UI in the Browser with React
-### Tutorial 5: Common Types and Functions
-### Tutorial 6: Off-Chain Storage
-### Tutorial 7: Oracles
-### Tutorial 8: Custom Tokens
-### Anonymous Message Board Tutorial
-### Interacting with zkApps Server-Side
+### - Tutorial 1: Hello World
+### - Tutorial 2 Private Inputs and Hash Functions
+### - Tutorial 3: Deploying to a Live Network
+### - Tutorial 4: Building a zkApp UI in the Browser with React
+### - Tutorial 5: Common Types and Functions
+### - Tutorial 6: Off-Chain Storage
+### - Tutorial 7: Oracles
+### - Tutorial 8: Custom Tokens
+### - Anonymous Message Board Tutorial
+### - Interacting with zkApps Server-Side
