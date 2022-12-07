@@ -570,7 +570,7 @@ Fee : `0.1`
 zk deploy berkeley
 ```
 
-**open file on `keys/berkeley.json save the private keys*
+**open file on `keys/berkeley.json` save the private keys**
 
 **save .json file**
 ```bash
