@@ -632,7 +632,7 @@ npm run deploy
 
 - send again more than 5 times (recommended)
 
-# 10. Edit your UI
+## 10. Edit your UI
 
 **create project**
 ```
@@ -658,7 +658,7 @@ cd styles
 ```
 **create file `Home.Module.css and edit with [this](https://raw.githubusercontent.com/mbukhori/04-zkapp-browser-ui/main/ui/styles/Home.module.css)**
 
-## Customize your UI
+## 12 Customize your UI
 
 if you have finished customize your page, deploy it
 
