@@ -545,17 +545,22 @@ import { LedgerContract } from './LedgerContract.js';
 export { LedgerContract };
 ```
 
-## set config for zk
+## Set config for zk
 
 ```bash
 zk config
 ```
 
 **fill the config same as below**
-
+<p>
 Name : `berkeley`
+</p>
+<p>
 URL : https://proxy.berkeley.minaexplorer.com/graphql
+</p>
+<p>
 Fee : `0.1`
+</p>
 
 **copy the output and paste in your browser for faucet, wait for a few minutes**
 
