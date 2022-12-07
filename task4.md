@@ -632,6 +632,48 @@ npm run deploy
 
 - send again more than 5 times (recommended)
 
+# 10. Edit your UI
+
+**create project**
+```
+zk project 04-zkapp-browser-ui --ui next
+```
+
+## 11. Create and edit typescript file
+
+```
+cd ..
+cd 04-zkapp-browser-ui/ui/pages
+```
+
+- **create file `zkappWorker.ts` and edit with [this](https://raw.githubusercontent.com/mbukhori/04-zkapp-browser-ui/main/ui/pages/zkappWorker.ts)**
+
+- **create file `zkappWorkerClient.ts` and edit with [this](https://raw.githubusercontent.com/mbukhori/04-zkapp-browser-ui/main/ui/pages/zkappWorkerClient.ts)**
+
+- **create file `_app.page.tsx` and edit with [this](https://raw.githubusercontent.com/mbukhori/04-zkapp-browser-ui/main/ui/pages/_app.page.tsx)**
+
+```
+cd ..
+cd styles
+```
+**create file `Home.Module.css and edit with [this](https://raw.githubusercontent.com/mbukhori/04-zkapp-browser-ui/main/ui/styles/Home.module.css)**
+
+## Customize your UI
+
+if you have finished customize your page, deploy it
+
+```
+cd ..
+npm run deploy
+```
+
+**and update it to your repo**
+
+```
+git push -u origin main
+```
+
+
 # 10. Fill out the form
 Link : https://fisz9c4vvzj.typeform.com/zkSparkTutorial
 
